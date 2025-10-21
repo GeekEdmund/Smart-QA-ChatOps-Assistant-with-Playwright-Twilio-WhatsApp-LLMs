@@ -1,0 +1,67 @@
+{
+  "JobId": "3fb877d6",
+  "Url": "https://amazon.com",
+  "TestIntent": "Check if search works",
+  "Success": true,
+  "Duration": "00:01:45.6221407",
+  "ExecutedSteps": [
+    {
+      "Action": "navigate",
+      "Description": "Navigate to Amazon homepage",
+      "Success": true,
+      "Error": null,
+      "Timestamp": "2025-10-16T09:51:23.3998834Z",
+      "ScreenshotPath": "wwwroot/artifacts\\screenshots\\3fb877d6_navigate_095213.png"
+    },
+    {
+      "Action": "wait",
+      "Description": "Wait for the page to fully load",
+      "Success": true,
+      "Error": null,
+      "Timestamp": "2025-10-16T09:52:29.4280243Z",
+      "ScreenshotPath": null
+    },
+    {
+      "Action": "type",
+      "Description": "Type search query into the search bar",
+      "Success": true,
+      "Error": null,
+      "Timestamp": "2025-10-16T09:52:31.5040203Z",
+      "ScreenshotPath": "wwwroot/artifacts\\screenshots\\3fb877d6_type_095233.png"
+    },
+    {
+      "Action": "click",
+      "Description": "Click the search button",
+      "Success": true,
+      "Error": null,
+      "Timestamp": "2025-10-16T09:52:35.9337466Z",
+      "ScreenshotPath": "wwwroot/artifacts\\screenshots\\3fb877d6_click_095252.png"
+    },
+    {
+      "Action": "wait",
+      "Description": "Wait for search results to load",
+      "Success": true,
+      "Error": null,
+      "Timestamp": "2025-10-16T09:52:55.6703156Z",
+      "ScreenshotPath": null
+    },
+    {
+      "Action": "verify",
+      "Description": "Verify that search results for laptops are displayed",
+      "Success": true,
+      "Error": null,
+      "Timestamp": "2025-10-16T09:52:58.8158525Z",
+      "ScreenshotPath": null
+    }
+  ],
+  "ScreenshotPaths": [
+    "wwwroot/artifacts\\screenshots\\3fb877d6_navigate_095213.png",
+    "wwwroot/artifacts\\screenshots\\3fb877d6_type_095233.png",
+    "wwwroot/artifacts\\screenshots\\3fb877d6_click_095252.png",
+    "wwwroot/artifacts\\screenshots\\3fb877d6_final_095259.png"
+  ],
+  "TracePath": "wwwroot/artifacts\\traces\\3fb877d6.zip",
+  "VideoPath": "wwwroot/artifacts\\videos\\3fb877d6.webm",
+  "ErrorMessage": null,
+  "AIAnalysis": "{\n  \u0022summary\u0022: \u0022The test execution on Amazon\u0027s search functionality was successful with all steps completing as expected.\u0022,\n  \u0022root_cause\u0022: \u0022N/A\u0022,\n  \u0022next_steps\u0022: \u0022No immediate action required. Consider optimizing the test for shorter duration if possible.\u0022\n}"
+}

@@ -1,0 +1,22 @@
+{
+  "JobId": "a3932e1a",
+  "Url": "https://amazon.com",
+  "TestIntent": "Check if search works",
+  "Success": false,
+  "Duration": "00:02:51.9888018",
+  "ExecutedSteps": [
+    {
+      "Action": "navigate",
+      "Description": "Navigate to Amazon homepage",
+      "Success": false,
+      "Error": "Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...",
+      "Timestamp": "2025-10-16T11:39:44.596961Z",
+      "ScreenshotPath": null
+    }
+  ],
+  "ScreenshotPaths": [],
+  "TracePath": "wwwroot/artifacts\\traces\\a3932e1a.zip",
+  "VideoPath": null,
+  "ErrorMessage": "Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...",
+  "AIAnalysis": "{\n  \u0022summary\u0022: \u0022The test aimed to check if the search functionality on Amazon works but failed at the initial step of navigating to the Amazon homepage due to a timeout error.\u0022,\n  \u0022root_cause\u0022: \u0022The failure was caused by the page taking longer than 30 seconds to load, possibly due to network issues or heavy page content such as fonts.\u0022,\n  \u0022next_steps\u0022: \u0022Increase the timeout limit, check network speed, and optimize page load performance for better results.\u0022\n}"
+}
