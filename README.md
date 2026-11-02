@@ -171,13 +171,5 @@ Feel free to open issues or PRs. Suggested improvements:
 ---
 
 ## License
-This project is provided as-is for demo/learning purposes. Add your preferred license if you plan to publish it.
-
+MIT
 ---
-
-If you'd like, I can:
-- Persist test results per job and include the LLM analysis on the report page
-- Add a small script to automate Playwright browser installation and initial configuration
-- Push the current commit to the GitHub remote for you (I won't be able to authenticate on your behalf without credentials)
-
-Tell me which of the above you'd like me to do next.
